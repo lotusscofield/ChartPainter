@@ -12,5 +12,11 @@ namespace ChartPainter
         {
             throw new System.NotImplementedException();
         }
+
+        public Brush BorderColor { get; set; }
+
+        public float Width { get; set; }
+
+        public Color FillColor { get; set; }
     }
 }

@@ -1,81 +1,88 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="ChartPainter.Chart">
-    <Position X="5.25" Y="1.5" Width="1.5" />
+    <Position X="11.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Chart.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ChartPainter.BarChart">
-    <Position X="5.25" Y="3.25" Width="1.5" />
+    <Position X="11.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAACAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAQAAAAAQAQAAAAAACAAAEAAAAACCAAAAAABA=</HashCode>
       <FileName>BarChart.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ChartPainter.Polygon">
-    <Position X="3" Y="3.25" Width="1.5" />
+    <Position X="5.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAIAAAAAIAAAAAgAAAAIAAAAAEAAAAAEAAAAAA=</HashCode>
       <FileName>Polygon.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ChartPainter.Shape">
-    <Position X="3" Y="5.25" Width="1.5" />
+    <Position X="4.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgIAAAAAAAAAAAAAAAAEAAAAAEAAAAgA=</HashCode>
       <FileName>Shape.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ChartPainter.DrawingCanvas">
-    <Position X="7.5" Y="7.25" Width="1.5" />
+    <Position X="10" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAAAAAQAQAAAAEAACAAAAAgAAAAAAAAAAAA=</HashCode>
       <FileName>DrawingCanvas.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ChartPainter.GdiDrawingCanvas">
-    <Position X="7.5" Y="5.25" Width="1.5" />
+    <Position X="7.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAACAAAAAhAAAAAQAAAAAA=</HashCode>
       <FileName>GdiDrawingCanvas.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ChartPainter.Style">
-    <Position X="9.75" Y="5.25" Width="1.5" />
+    <Position X="9.75" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEACAAAAAAAAAAAAAAgAAAA=</HashCode>
       <FileName>Style.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ChartPainter.Painter">
-    <Position X="5.25" Y="5.25" Width="1.5" />
+    <Position X="8" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <HashCode>ACAAAAAAACAAAAAAAAAAAAAAAAAEAAAIIEAAAAAABAA=</HashCode>
       <FileName>Painter.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ChartPainter.LineSegment">
-    <Position X="1.25" Y="3.25" Width="1.5" />
+    <Position X="3.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAIAAAAAgAAAAIAAAAAEAAAAAEAAAAAA=</HashCode>
       <FileName>LineSegment.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ChartPainter.CoordinateSystem">
-    <Position X="1.25" Y="0.5" Width="1.5" />
+    <Position X="3.75" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>CoordinateSystem.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Struct Name="ChartPainter.Coordinate">
-    <Position X="3" Y="0.5" Width="1.5" />
+    <Position X="2" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAAAABgAAAAYiA=</HashCode>
       <FileName>Coordinate.cs</FileName>
     </TypeIdentifier>
   </Struct>
+  <Enum Name="ChartPainter.ShapeType">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAAAABACA=</HashCode>
+      <FileName>ShapeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
